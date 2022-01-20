@@ -1,0 +1,11 @@
+while true do
+
+local args = {
+    [1] = "DropMoney",
+    [2] = "100"
+}
+
+game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+wait()
+end
